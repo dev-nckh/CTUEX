@@ -1,0 +1,131 @@
+{
+    "items": [
+      {
+        "id": "1",
+        "name": "Introduction to Algorithms",
+        "category": "Books",
+        "description": "A comprehensive book on algorithms.",
+        "price": 45.99,
+        "currency": "USD",
+        "condition": "New",
+        "seller": {
+          "name": "BookStore123",
+          "location": "New York, USA"
+        }
+      },
+      {
+        "id": "2",
+        "name": "Men's T-Shirt",
+        "category": "Clothing",
+        "description": "A casual cotton t-shirt for men.",
+        "price": 19.99,
+        "currency": "USD",
+        "size": "L",
+        "color": "Blue",
+        "condition": "New",
+        "seller": {
+          "name": "FashionHub",
+          "location": "Los Angeles, USA"
+        }
+      },
+      {
+        "id": "3",
+        "name": "Electric Kettle",
+        "category": "Home Appliances",
+        "description": "A 1.5L stainless steel electric kettle.",
+        "price": 25.49,
+        "currency": "USD",
+        "brand": "KitchenMaster",
+        "condition": "New",
+        "seller": {
+          "name": "HomeEssentials",
+          "location": "Chicago, USA"
+        }
+      },
+      {
+        "id": "4",
+        "name": "The Great Gatsby",
+        "category": "Books",
+        "description": "A classic novel by F. Scott Fitzgerald.",
+        "price": 10.99,
+        "currency": "USD",
+        "condition": "Used - Like New",
+        "seller": {
+          "name": "ClassicReads",
+          "location": "San Francisco, USA"
+        }
+      },
+      {
+        "id": "5",
+        "name": "Women's Jeans",
+        "category": "Clothing",
+        "description": "High-waisted skinny jeans for women.",
+        "price": 39.99,
+        "currency": "USD",
+        "size": "M",
+        "color": "Black",
+        "condition": "New",
+        "seller": {
+          "name": "TrendyApparel",
+          "location": "Houston, USA"
+        }
+      },
+      {
+        "id": "6",
+        "name": "Vacuum Cleaner",
+        "category": "Home Appliances",
+        "description": "A powerful vacuum cleaner with HEPA filter.",
+        "price": 99.99,
+        "currency": "USD",
+        "brand": "CleanSweep",
+        "condition": "New",
+        "seller": {
+          "name": "ApplianceDepot",
+          "location": "Miami, USA"
+        }
+      },
+      {
+        "id": "7",
+        "name": "To Kill a Mockingbird",
+        "category": "Books",
+        "description": "A novel by Harper Lee.",
+        "price": 7.99,
+        "currency": "USD",
+        "condition": "Used - Good",
+        "seller": {
+          "name": "BookBarn",
+          "location": "Seattle, USA"
+        }
+      },
+      {
+        "id": "8",
+        "name": "Men's Running Shoes",
+        "category": "Clothing",
+        "description": "Lightweight and comfortable running shoes.",
+        "price": 59.99,
+        "currency": "USD",
+        "size": "42",
+        "color": "Gray",
+        "condition": "New",
+        "seller": {
+          "name": "AthleticGear",
+          "location": "Boston, USA"
+        }
+      },
+      {
+        "id": "9",
+        "name": "Blender",
+        "category": "Home Appliances",
+        "description": "A high-performance blender for smoothies.",
+        "price": 69.99,
+        "currency": "USD",
+        "brand": "BlendPro",
+        "condition": "New",
+        "seller": {
+          "name": "KitchenWorld",
+          "location": "Atlanta, USA"
+        }
+      }
+    ]
+  }
+  
