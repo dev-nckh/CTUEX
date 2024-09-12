@@ -4,7 +4,7 @@ import React from 'react'
 const notification = () => {
   return (
     <View>
-      <Text>notification</Text>
+      
     </View>
   )
 }

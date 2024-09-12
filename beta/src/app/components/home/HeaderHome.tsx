@@ -7,6 +7,9 @@ const HeaderHome = () => {
   const handlePress = () => {
     router.push('/(stack)/CartScreen'); 
   };
+  const handlePressChat = () => {
+    router.push('/(stack)/ChatScreen'); 
+  };
   return (
     <View style={{
         backgroundColor: '#2980b8',
@@ -86,6 +89,7 @@ const HeaderHome = () => {
               </View>
 
             </Pressable>
+            <Pressable onPress={handlePressChat}>
             <View>
               <Image 
                 source={require('../../../../assets/img/chat.png')}
@@ -106,7 +110,7 @@ const HeaderHome = () => {
               }}>
               </View>
             </View>
-
+            </Pressable>
           </View>
         </View>
       </View>

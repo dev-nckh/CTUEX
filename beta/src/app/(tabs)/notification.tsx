@@ -1,6 +1,6 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-import Notification from '../components/notification/notification'
+import Notification from '../components/notification/Notification'
 
 const notification = () => {
   return (
