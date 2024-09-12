@@ -7,8 +7,11 @@ import {
 } from "react-native";
 import React from "react";
 import Product from "../Product";
+import { useRouter } from "expo-router";
+import ProductSuggestMore from "../../(stack)/ProductSuggestMore";
 
 const ListProductSug = () => {
+  const router = useRouter();
   return (
     <View>
       <FlatList
@@ -36,8 +39,7 @@ const ListProductSug = () => {
           borderRadius: 5,
         }}
         onPress={() => {
-          // Handle "Xem thêm" button press
-          // You can implement your logic to show more items or navigate to a new screen
+          router.push("/(stack)/ProductSuggestMore");
         }}
       >
         <Text style={{ color: "#fff", fontWeight: "bold" }}>Xem thêm</Text>
@@ -47,5 +49,3 @@ const ListProductSug = () => {
 };
 
 export default ListProductSug;
-
-const styles = StyleSheet.create({});
