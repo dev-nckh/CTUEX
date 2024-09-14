@@ -11,7 +11,7 @@ const Chat = () => {
             flexDirection: 'row',
             alignItems: 'center',
             gap: 12,
-            paddingTop: 15,
+            paddingTop: 7,
             paddingLeft: 10,
             paddingRight: 10
         }}>

@@ -55,7 +55,9 @@ const TabLayout = () => {
         <Tabs.Screen
         name="notification"
         options={{
-          headerTitle: 'Notification',
+          title:'Thông báo',
+          headerShown: true,
+          headerTitleAlign: 'center',
           tabBarIcon: ({ focused }) => (
             <Image
               source={focused ? require('../../../assets/img/bell-fill.png') : require('../../../assets/img/bell-nofill.png')}
