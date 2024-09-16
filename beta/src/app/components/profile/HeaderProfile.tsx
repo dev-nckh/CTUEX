@@ -124,30 +124,38 @@ const HeaderProfile = () => {
             <View style={{
                 flexDirection: 'row',
                 alignItems: 'center',
-                justifyContent: 'flex-start',
+                justifyContent: 'space-between',
                 paddingHorizontal: 10,
                 paddingTop: 10,
                 paddingBottom: 10,
                 gap:10
             }}>
-                <Image 
-                    source={require('../../../../assets/img/ctu.png')}
-                    style={{width: 100, height: 100}}
-                    resizeMode='contain'
-                />
+                <View style={{
+                    flexDirection: 'row',
+                    alignItems: 'center',
+                    gap: 10,
+                }}>
+                    <Image 
+                        source={require('../../../../assets/img/ctu.png')}
+                        style={{width: 100, height: 100}}
+                        resizeMode='contain'
+                    />
 
-                    <View style={{
-                        gap:5
-                    }}>
-                        <Text style={{fontSize: 18, fontWeight: 'bold'}}>CTUEX</Text>
-                        <Text style={{fontSize: 14, color: 'gray'}}>ctuex.vn</Text>
-                    </View>
+                        <View style={{
+                            gap:5
+                        }}>
+                            <Text style={{fontSize: 18, fontWeight: 'bold'}}>CTUEX</Text>
+                            <Text style={{fontSize: 14, color: 'gray'}}>ctuex.vn</Text>
+                        </View>
+
+                </View>
 
                     <View style={{
                         flexDirection: 'row',
                         alignItems: 'center',
                         gap: 15,
                         marginLeft:Platform.OS === 'ios' ? 10 : 40,
+                        marginRight:Platform.OS === 'ios' ? 10 : 40,
                     }}>
                         <View style={{
                             flexDirection: 'row',

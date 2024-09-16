@@ -65,32 +65,6 @@ const StackLayout = () => {
           },
         }}
       />
-
-      <Stack.Screen
-        name="ProductSuggestMore"
-        options={{
-          title: "Sản phẩm có thể bạn quan tâm",
-          headerShown: true,
-          headerTitleAlign: "center",
-          headerTitleStyle: {
-            fontSize: 18,
-            fontWeight: "bold",
-            color: "#64a2cb",
-          },
-
-          headerLeft: () => {
-            const router = useRouter();
-            return (
-              <Pressable onPress={() => router.replace("/(tabs)")}>
-                <Image
-                  source={require("../../../assets/img/arrow.png")}
-                  style={{ width: 20, height: 20, marginLeft: 10 }}
-                />
-              </Pressable>
-            );
-          },
-        }}
-      />
     </Stack>
   );
 };
