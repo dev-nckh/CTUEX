@@ -14,7 +14,6 @@ const StackLayout = () => {
           headerTitleStyle: {
             fontSize: 23,
           },
-
           headerLeft: () => {
             const router = useRouter();
             return (
@@ -46,6 +45,55 @@ const StackLayout = () => {
                     position: "relative",
                   }}
                 />
+                <View
+                  style={{
+                    position: "absolute",
+                    backgroundColor: "rgba(252,129,65,1)",
+                    minWidth: 15,
+                    height: 15,
+                    borderRadius: 8.5,
+                    alignItems: "center",
+                    justifyContent: "center",
+                    top: -5,
+                    left: 68,
+                    paddingHorizontal: 4,
+                  }}
+                ></View>
+              </View>
+            );
+          },
+        }}
+      />
+      <Stack.Screen
+        name="ChatScreen"
+        options={{
+          title: "Chat",
+          headerShown: true,
+          headerTitleAlign: "center",
+          headerTitleStyle: {
+            fontSize: 23,
+          },
+          headerLeft: () => {
+            const router = useRouter();
+            return (
+              <Pressable onPress={() => router.replace("/(tabs)")}>
+                <Image
+                  source={require("../../../assets/img/arrow.png")}
+                  style={{ width: 20, height: 20, marginLeft: 10 }}
+                />
+              </Pressable>
+            );
+          },
+          headerRight: () => {
+            return (
+              <View
+                style={{
+                  flexDirection: "row",
+                  alignItems: "center",
+                  gap: 10,
+                  paddingLeft: 10,
+                }}
+              >
                 <View
                   style={{
                     position: "absolute",
