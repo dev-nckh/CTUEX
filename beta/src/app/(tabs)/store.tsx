@@ -1,10 +1,11 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
+import Mystore from '../components/mystore/Mystore'
 const Store = () => {
   return (
     <View>
-      <Text>Store</Text>
+      <Mystore/>
     </View>
   )
 }
