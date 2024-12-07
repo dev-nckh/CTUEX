@@ -12,8 +12,8 @@ import React, { useState } from "react";
 import Cart from "../components/cart/Cart";
 
 const CartScreen = () => {
-  const { height } = Dimensions.get("window");
   const [IsPress, setIsPress] = useState(false);
+  const { height } = Dimensions.get("window");
   return (
     <View style={styles.container}>
       <FlatList

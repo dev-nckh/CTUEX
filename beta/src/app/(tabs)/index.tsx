@@ -19,8 +19,6 @@ const index = () => {
         <HeaderPro />
         <Category />
         <ProductSuggest />
-        <ProductSuggest />
-        <ProductSuggest />
       </ScrollView>
     </SafeAreaView>
   )

@@ -5,10 +5,10 @@ import { useRouter } from 'expo-router';
 const HeaderHome = () => {
   const router = useRouter();
   const handlePress = () => {
-    router.push('/(stack)/CartScreen'); 
+    router.push('/(stacks)/CartScreen'); 
   };
   const handlePressChat = () => {
-    router.push('/(stack)/ChatScreen'); 
+    router.push('/(stacks)/ChatScreen'); 
   };
   return (
     <View style={{
@@ -32,7 +32,8 @@ const HeaderHome = () => {
             backgroundColor: '#fff',
             justifyContent:'space-between',
             paddingLeft:10,
-            paddingRight:5
+            paddingRight:5,
+            marginRight:15
           }}>
             <Text style={{fontSize: Platform.OS === 'ios' ? 13 :  16, fontWeight: 'light',width: Platform.OS === 'ios' ? 130 :  150}}
             numberOfLines={1}
@@ -47,6 +48,7 @@ const HeaderHome = () => {
               backgroundColor: '#64a2cb',
               justifyContent: 'center',
               alignItems: 'center',
+              marginLeft:20
             }}>
               <Image 
                 source={require('../../../../assets/img/search.png')}
@@ -59,7 +61,8 @@ const HeaderHome = () => {
           <View style={{
             flexDirection: 'row',
             alignItems:'center',
-            gap:15,
+            justifyContent:'space-between',
+            gap:25,
             paddingLeft:10
           }}>
             <Pressable onPress={handlePress}>

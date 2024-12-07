@@ -8,10 +8,13 @@ import {
 import React from "react";
 import Product from "../Product";
 import { useRouter } from "expo-router";
-import ProductSuggestMore from "../../(stack)/ProductSuggestMore";
 
 const ListProductSug = () => {
   const router = useRouter();
+
+  const handlePressProduct = () => {
+    router.push("/(stacks)/ProductSuggestMore");
+  };
   return (
     <View>
       <FlatList
@@ -33,14 +36,12 @@ const ListProductSug = () => {
       <TouchableOpacity
         style={{
           alignSelf: "center",
-          marginTop: 10,
+          marginTop: 20,
           padding: 10,
           backgroundColor: "#2980b8",
           borderRadius: 5,
         }}
-        onPress={() => {
-          router.push("/(stack)/ProductSuggestMore");
-        }}
+        onPress={handlePressProduct}
       >
         <Text style={{ color: "#fff", fontWeight: "bold" }}>Xem thêm</Text>
       </TouchableOpacity>

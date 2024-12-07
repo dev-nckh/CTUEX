@@ -3,8 +3,7 @@ import React, { useState } from 'react'
 import { FullWindowOverlay } from 'react-native-screens';
 
 const Chat = () => {
-    const {width,height} = Dimensions.get('window');
-    const [isFocused, setIsFocused] = useState(false);
+
   return (
         <View style={{
             flex: 1,

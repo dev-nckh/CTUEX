@@ -1,6 +1,6 @@
 import { StyleSheet, Image, View } from 'react-native';
 import React from 'react';
-import { Link, Tabs,router } from 'expo-router';
+import { Tabs } from 'expo-router';
 
 const TabLayout = () => {
   return (

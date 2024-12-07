@@ -8,12 +8,11 @@ import {
   TouchableOpacity,
   Image,
 } from "react-native";
-import React, { useState } from "react";
+import React from "react";
 import { FullWindowOverlay } from "react-native-screens";
 
 const notification = () => {
-  const {width,height} = Dimensions.get('window');
-  const [isFocused, setIsFocused] = useState(false);
+
   return (
     <View >
       <View style={{
